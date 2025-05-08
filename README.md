@@ -1,17 +1,54 @@
-# Основы алгоритмизации и программирования
+# Задания массивы .NET Framework 4.8
 
-## Выполнил: _Сегеда Даниил ИПО-21.23_
+## Вопросы:
 
-### [calculatator](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
+### 1. Ответ: 18
 
-### [крестики-нолики]() (не выполнено)
+### 2. Ответ: 2
 
-### [массивы]() (выполнено)
+### 3. Ответ: Ошибка IndexOutOfRangeException
 
-### [новелла]() (выполнено)
+### 4. Ответ: nums[2][1]
 
-### [циклы](https://github.com/XioXzEz/tasks/tree/cycles) (выполнено)
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-### [code-pen](https://github.com/XioXzEz/tasks/tree/code-pen) (выполнено)
+### 5.
+```
+using System;
 
-### [блок-схема]() (не выполнено)
+class Program
+{
+    static void Main()
+    {
+        int[,,] mas = { { { 1, 2 }, { 3, 4 } }, 
+                         { { 4, 5 }, { 6, 7 } }, 
+                         { { 7, 8 }, { 9, 10 } }, 
+                         { { 10, 11 }, { 12, 13 } } 
+                       };
+
+        Console.Write("{");
+        for (int i = 0; i < mas.GetLength(0); i++)
+        {
+            if (i > 0) Console.Write(" , ");
+            Console.Write("{");
+            for (int j = 0; j < mas.GetLength(1); j++)
+            {
+                if (j > 0) Console.Write(" , ");
+                Console.Write("{");
+                for (int k = 0; k < mas.GetLength(2); k++)
+                {
+                    if (k > 0) Console.Write(" , ");
+                    Console.Write(mas[i, j, k]);
+                }
+                Console.Write("}");
+            }
+            Console.Write("}");
+        }
+        Console.Write("}");
+    }
+}
+```
