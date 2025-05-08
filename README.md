@@ -8,7 +8,7 @@
 
 ### [массивы](https://github.com/XioXzEz/tasks/tree/array%D1%8B) (выполнено)
 
-### [новелла]() (выполнено)
+### [новелла](https://github.com/XioXzEz/tasks/tree/Novel) (выполнено)
 
 ### [циклы](https://github.com/XioXzEz/tasks/tree/cycles) (выполнено)
 
