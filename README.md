@@ -10,14 +10,8 @@
 
 ### 4. Ответ: nums[2][1]
 
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 ### 5.
-```
+```c#
 using System;
 
 class Program
