@@ -1,17 +1,151 @@
-# Основы алгоритмизации и программирования
+# Задания Code-pen .NET Framework 4.8
 
-## Выполнил: _Сегеда Даниил ИПО-21.23_
+## Задание 1
 
-### [calculatator](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
+```
+using System;
 
-### [крестики-нолики]() (не выполнено)
+class Program
+{
+    static void Main()
+    {
+        string[] nums = Console.ReadLine().Split();
+        long res = 0;
+        for (int i = 0; i < nums.Length; i++)
+        {
+            res += Convert.ToInt64(nums[i]);
+        }
+        Console.WriteLine(res); 
+    }
+}
+```
 
-### [массивы]() (выполнено)
+## Задание 2
 
-### [новелла]() (выполнено)
+```
+using System;
 
-### [циклы]() (выполнено)
+class Program
+{
+    static void Main()
+    {
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int c = int.Parse(Console.ReadLine());
 
-### [code-pen]() (выполнено)
+        // Проверяем условие треугольника
+        if (a + b > c && a + c > b && b + c > a)
+        {
+            Console.WriteLine("YES");
+        }
+        else
+        {
+            Console.WriteLine("NO");
+        }
+    }
+}
+```
 
-### [блок-схема]() (не выполнено)
+## Задание 3
+
+```
+using System;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+        int count = 0;
+
+        for (int i = 1; i < numbers.Length - 1; i++)
+        {
+            if (numbers[i] > numbers[i - 1] && numbers[i] > numbers[i + 1])
+            {
+                count++;
+            }
+        }
+
+        Console.WriteLine(count);
+    }
+}
+```
+
+## Задание 4
+
+```
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+
+        if (n == 1)
+        {
+            Console.WriteLine(1);
+        }
+        else if (n == 2)
+        {
+            Console.WriteLine(2);
+        }
+        else
+        {
+            int a = 1;
+            int b = 1;
+            int sum = a + b;
+
+            for (int i = 3; i <= n; i++)
+            {
+                int next = a + b;
+                sum += next;
+                a = b;
+                b = next;
+            }
+
+            Console.WriteLine(sum);
+        }
+    }
+}
+```
+
+## Задание 5
+
+```
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string[] input = Console.ReadLine().Split();
+        int a = int.Parse(input[0]);
+        int b = int.Parse(input[1]);
+        int c = int.Parse(input[2]);
+
+        double discriminant = b * b - 4 * a * c;
+
+        if (discriminant > 0)
+        {
+            double sqrtDiscriminant = Math.Sqrt(discriminant);
+            double root1 = (-b - sqrtDiscriminant) / (2 * a);
+            double root2 = (-b + sqrtDiscriminant) / (2 * a);
+            Console.WriteLine(2);
+            Console.WriteLine($"{Math.Min(root1, root2)} {Math.Max(root1, root2)}");
+        }
+        else if (discriminant == 0)
+        {
+            double root = -b / (2.0 * a);
+            Console.WriteLine(1);
+            Console.WriteLine(root);
+        }
+        else
+        {
+            Console.WriteLine(0);
+        }
+    }
+}
+```
