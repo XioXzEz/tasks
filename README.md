@@ -1,8 +1,8 @@
 # Задания Циклы .NET Framework 4.8
 
-## Первое задание
+## Задание 1
 
-```
+```c#
 ﻿using System;
 
 class Program
@@ -25,9 +25,9 @@ class Program
 }
 ```
 
-## Второе задание
+## Задание 2
 
-```
+```c#
 ﻿using System;
 
 class Program
@@ -52,9 +52,9 @@ class Program
 }
 ```
 
-## Третье задание
+## Задание 3
 
-```
+```c#
 ﻿using System;
 
 class Program
@@ -75,9 +75,9 @@ class Program
 }
 ```
 
-## Четвёртое задание
+## Задание 4
 
-```
+```c#
 ﻿using System;
 
 class Program
