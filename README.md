@@ -2,16 +2,17 @@
 
 ## Выполнил: _Сегеда Даниил ИПО-21.23_
 
-### [calculatator](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
+### [Блок-схема]() (не выполнено)
 
-### [крестики-нолики](https://github.com/XioXzEz/tasks/tree/tic_tac_toe) (выполнено)
+### [Консольная новелла](https://github.com/XioXzEz/tasks/tree/Novel) (выполнено)
 
-### [массивы](https://github.com/XioXzEz/tasks/tree/array%D1%8B) (выполнено)
+### [Задачи циклы](https://github.com/XioXzEz/tasks/tree/cycles) (выполнено)
 
-### [новелла](https://github.com/XioXzEz/tasks/tree/Novel) (выполнено)
+### [Задачи массивы](https://github.com/XioXzEz/tasks/tree/array%D1%8B) (выполнено)
 
-### [циклы](https://github.com/XioXzEz/tasks/tree/cycles) (выполнено)
+### [Задачи coderun](https://github.com/XioXzEz/tasks/tree/code-pen) (выполнено)
 
-### [code-pen](https://github.com/XioXzEz/tasks/tree/code-pen) (выполнено)
+### [Консольный калькулятор](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
 
-### [блок-схема]() (не выполнено)
+### [Игра крестики-нолики](https://github.com/XioXzEz/tasks/tree/tic_tac_toe) (выполнено)
+
