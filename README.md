@@ -1,47 +1,110 @@
-# Калькулятор. Консольное приложение (.NET Framework) .NET Framework 4.8
+# Задания Циклы .NET Framework 4.8
 
-# Как использовать 
+## Первое задание
 
-## Запуск программы:
+```
+﻿using System;
 
-Скомпилируйте и запустите программу в среде разработки, например, Visual Studio.
+class Program
+{
+    static void Main()
+    {
+        decimal procent = 0.07m;
+        Console.WriteLine("Процентная ставка банка равна 7%/мес.");
+        Console.Write("Введите сумму вклада: ");
+        decimal summ = Convert.ToDecimal(Console.ReadLine());
+        Console.Write("Введите количество месяцев: ");
+        decimal month = Convert.ToDecimal(Console.ReadLine());
+        decimal res = summ;
+        for (int i = 0; i < month; i++)
+        {
+            res += res * procent;
+        }
+        Console.WriteLine($"Итоговая сумма равна: {res:F2}");
+    }
+}
+```
 
-## Ввод данных:
+## Второе задание
 
-### После запуска программа запросит у вас:
+```
+﻿using System;
 
-* Первое число (целое число)
+class Program
+{
+    static void Main()
+    {
+        decimal procent = 0.07m;
+        int i = 0;
+        Console.WriteLine("Процентная ставка банка равна 7%/мес.");
+        Console.Write("Введите сумму вклада: ");
+        decimal summ = Convert.ToDecimal(Console.ReadLine());
+        Console.Write("Введите количество месяцев: ");
+        int month = Convert.ToInt32(Console.ReadLine());
+        decimal res = summ;
+        while (i < month) 
+        {
+            res += res * procent;
+            i++;
+        }
+        Console.WriteLine($"Итоговая сумма равна: {res:F2}");
+    }
+}
+```
 
-* Второе число (целое число)
+## Третье задание
 
-* Знак операции (один из поддерживаемых символов)
+```
+﻿using System;
 
-### Поддерживаемые операции:
+class Program
+{
+    static void Main()
+    {
+        int size = 10;
+        Console.WriteLine();
+        for (int i = 1; i <= size; i++)
+        {
+            for (int j = 1; j <= size; j++)
+            {
+                Console.Write($"{i * j,4}");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+```
 
+## Четвёртое задание
 
-* __+__ (сложение)
+```
+﻿using System;
 
-* __-__ (вычитание)
-
-* __*__ (умножение)
-
-* __/__ (деление)
-
-* __%__ (остаток от деления)
-
-* __&__ (побитовое И)
-
-* __|__ (побитовое ИЛИ)
-
-* __^__ (побитовое исключающее ИЛИ)
-
-
-## Пример работы:
-
-Введите первое число: 10 Введите второе число: 3 Введите знак: * Результат = 30
-
-## Обработка ошибок:
-
-Если введены некорректные данные (например, нечисловое значение или неподдерживаемый знак операции), программа сообщит об ошибке
-
-
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Принимаются числа только в диапозоне от 0 до 10!");
+        while (true)
+        {
+            Console.Write("Введите первое число: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите второе число: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int result = 0;
+            if (num1 >= 0 && num1 <= 10 && num2 >= 0 && num2 <= 10)
+            {
+                result = num1 * num2;
+                Console.WriteLine($"Ответ = {result}");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Недопустимые значения!");
+                
+            }
+            
+        }
+    }
+}
+```
