@@ -12,6 +12,6 @@
 
 ### [циклы](https://github.com/XioXzEz/tasks/tree/cycles) (выполнено)
 
-### [code-pen]() (выполнено)
+### [code-pen](https://github.com/XioXzEz/tasks/tree/code-pen) (выполнено)
 
 ### [блок-схема]() (не выполнено)
