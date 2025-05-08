@@ -4,7 +4,7 @@
 
 ### [calculatator](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
 
-### [крестики-нолики]() (не выполнено)
+### [крестики-нолики](https://github.com/XioXzEz/tasks/tree/tic_tac_toe) (выполнено)
 
 ### [массивы](https://github.com/XioXzEz/tasks/tree/array%D1%8B) (выполнено)
 
