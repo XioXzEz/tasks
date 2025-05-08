@@ -2,7 +2,7 @@
 
 ## Задание 1
 
-```
+```c#
 using System;
 
 class Program
@@ -22,7 +22,7 @@ class Program
 
 ## Задание 2
 
-```
+```c#
 using System;
 
 class Program
@@ -48,7 +48,7 @@ class Program
 
 ## Задание 3
 
-```
+```c#
 using System;
 using System.Linq;
 
@@ -75,7 +75,7 @@ class Program
 
 ## Задание 4
 
-```
+```c#
 using System;
 
 class Program
@@ -114,7 +114,7 @@ class Program
 
 ## Задание 5
 
-```
+```c#
 using System;
 
 class Program
