@@ -2,7 +2,7 @@
 
 ## Выполнил: _Сегеда Даниил ИПО-21.23_
 
-### [calculatator]() (выполнено)
+### [calculatator](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
 
 ### [крестики-нолики]() (не выполнено)
 
