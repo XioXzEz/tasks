@@ -76,3 +76,5 @@
 
 Концовка: Семейное счастье.
 ```
+
+## [Вернутся на главную](https://github.com/XioXzEz/tasks/tree/main)
