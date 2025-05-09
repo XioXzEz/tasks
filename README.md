@@ -46,3 +46,5 @@ class Program
     }
 }
 ```
+
+## [Вернутся на главную](https://github.com/XioXzEz/tasks/tree/main)
