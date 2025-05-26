@@ -1,18 +1,11 @@
-# Основы алгоритмизации и программирования
+# Блок-схемы
 
-## Выполнил: _Сегеда Даниил ИПО-21.23_
+## ЗАДАНИЕ 1
 
-### [Блок-схема]() (не выполнено)
+### Дано:
 
-### [Консольная новелла](https://github.com/XioXzEz/tasks/tree/Novel) (выполнено)
+* A = 12
+* B = 12
 
-### [Задачи циклы](https://github.com/XioXzEz/tasks/tree/cycles) (выполнено)
-
-### [Задачи массивы](https://github.com/XioXzEz/tasks/tree/array%D1%8B) (выполнено)
-
-### [Задачи coderun](https://github.com/XioXzEz/tasks/tree/code-pen) (выполнено)
-
-### [Консольный калькулятор](https://github.com/XioXzEz/tasks/tree/calculator) (выполнено)
-
-### [Игра крестики-нолики](https://github.com/XioXzEz/tasks/tree/tic_tac_toe) (выполнено)
+### [Блок-схема]() 
 
