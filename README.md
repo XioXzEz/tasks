@@ -2,7 +2,7 @@
 
 ## Выполнил: _Сегеда Даниил ИПО-21.23_
 
-### [Блок-схема]() (не выполнено)
+### [Блок-схема](https://github.com/XioXzEz/tasks/tree/drawio?tab=readme-ov-file) (выполнено)
 
 ### [Консольная новелла](https://github.com/XioXzEz/tasks/tree/Novel) (выполнено)
 
@@ -16,3 +16,4 @@
 
 ### [Игра крестики-нолики](https://github.com/XioXzEz/tasks/tree/tic_tac_toe) (выполнено)
 
+### [Проводник]() (выполнено)
